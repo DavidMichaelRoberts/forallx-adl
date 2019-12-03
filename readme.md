@@ -32,7 +32,8 @@ The following list contains current issues and proposed revisions arranged by ch
 * Chapter 6 (`forallx-adl-prooftfl.tex`)
 * Chapter 7 (`forallx-adl-prooffol.tex`)
 * Backmatter
-
+* Other
+	- The LaTeX package `filehook-scrlfile.sty` is currently (2019-12-03) causing problems with the `memoir` and `unicode-math` packages used in the book after an update to the LaTeX kernel; see [this StackExchange discussion](https://tex.stackexchange.com/questions/513051/filehook-error-with-memoir-after-update-texlive-2019-in-oct-15). Hopefully this is temporary, but at present getting the LaTeX to compile is a bit fiddly. 
 
 
 
